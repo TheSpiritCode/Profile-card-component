@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-with-relative-avatar-positioning-La3gi4O1d8](https://www.frontendmentor.io/solutions/profile-card-component-with-relative-avatar-positioning-La3gi4O1d8)
+- Live Site URL: [https://thespiritcode.github.io/Profile-card-component/](https://thespiritcode.github.io/Profile-card-component/)
 
 ## My process
 
