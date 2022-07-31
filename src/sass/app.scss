@@ -22,7 +22,7 @@ html {
     justify-content: center;
 
     background-color: $dark-cyan;
-    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-position: top -40rem left -40rem, bottom -35rem right -40rem;
     background-size: 55rem;
     background-repeat: no-repeat;
