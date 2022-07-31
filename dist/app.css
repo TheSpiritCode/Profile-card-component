@@ -38,6 +38,7 @@ html body .card {
   overflow: hidden;
   width: 327px;
   border-radius: 15px;
+  box-shadow: 0 0 4rem hsla(229deg, 23%, 23%, 0.5);
 }
 html body .card .card__avatar {
   display: flex;
