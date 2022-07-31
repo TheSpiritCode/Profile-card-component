@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap);
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+@media (min-width: 1439.98px) {
+  html body {
+    background-position: top -30rem left -15rem, bottom -35rem right -15rem !important;
+  }
+  html body .card {
+    width: 350px !important;
+  }
+}
+html body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(185deg, 75%, 39%);
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-position: top -40rem left -40rem, bottom -35rem right -40rem;
+  background-size: 55rem;
+  background-repeat: no-repeat;
+}
+html body .grayed-text {
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 400;
+}
+html body .solid-text {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+  font-size: 1rem;
+}
+html body .card {
+  background-color: white;
+  border: 25px;
+  overflow: hidden;
+  width: 327px;
+  border-radius: 15px;
+}
+html body .card .card__avatar {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+html body .card .card__avatar img {
+  border-radius: 50%;
+  border: 5px solid white;
+  top: -60px;
+  position: absolute;
+}
+html body .card .card__user {
+  display: flex;
+  flex-direction: column;
+  padding: 2.3rem;
+  padding-bottom: 1.2rem;
+  align-items: center;
+}
+html body .card .card__user .card__user__name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+html body .card .card__user .card__user__name .age {
+  margin-left: 0.5rem;
+}
+html body .card .card__user .card__user__name small {
+  font-size: 0.5rem;
+}
+html body .card .card__stats {
+  padding: 1.5rem 2.3rem 1.5rem 2.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid hsl(0deg, 0%, 91%);
+}
+html body .card .card__stats .card__stats__number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html body .card .card__stats .card__stats__number small {
+  font-size: 0.5rem;
+  letter-spacing: 0.1rem;
+}
