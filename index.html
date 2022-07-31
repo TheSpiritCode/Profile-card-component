@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="dist/app.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+<div class="card">
+    <div class="card__top">
+        <img src="images/bg-pattern-card.svg" alt="card top background"/>
+    </div>
+    <div class="card__avatar">
+        <img src="images/image-victor.jpg" alt="nice picture of Victor apparently" />
+    </div>
+    <div class="card__user">
+        <div class="card__user__name solid-text">
+            Victor Crest
+            <span class="age grayed-text">26</span>
+        </div>
+        <small class="grayed-text">London</small>
+    </div>
+    <div class="card__stats">
+        <div class="card__stats__number solid-text">
+            80K
+            <small class="grayed-text">Followers</small>
+        </div>
 
-  80K
-  Followers
+        <div class="card__stats__number solid-text">
+            803K
+            <small class="grayed-text">Likes</small>
+        </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="card__stats__number solid-text">
+            1.4K
+            <small class="grayed-text">Photos</small>
+        </div>
+    </div>
+</div>
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Paweł</a>.
+</footer>
 </body>
 </html>
